@@ -1,0 +1,8 @@
+# @package _global_
+generation:
+  type: default
+  prompt_template: "Generate a response for: {text}"
+  num_samples: 100
+  output_format: jsonl
+  deduplicate: true
+  save_intermediate: false
