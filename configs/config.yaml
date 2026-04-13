@@ -1,0 +1,9 @@
+defaults:
+  - dataset: huggingface
+  - model: hf_transformers
+  - generation: default
+  - _self_
+
+output_dir: outputs
+experiment_name: default_experiment
+seed: 42

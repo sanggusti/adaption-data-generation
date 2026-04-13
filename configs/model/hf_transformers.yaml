@@ -1,0 +1,11 @@
+# @package _global_
+model:
+  type: hf_transformers
+  name: mistralai/Mistral-7B-Instruct-v0.3
+  device: auto
+  torch_dtype: float16
+  max_new_tokens: 512
+  temperature: 0.7
+  top_p: 0.9
+  do_sample: true
+  batch_size: 4

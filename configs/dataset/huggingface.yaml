@@ -1,0 +1,9 @@
+# @package _global_
+dataset:
+  type: huggingface
+  name: tatsu-lab/alpaca
+  split: train
+  subset: null
+  max_samples: 1000
+  text_column: instruction
+  cache_dir: ~/.cache/huggingface/datasets

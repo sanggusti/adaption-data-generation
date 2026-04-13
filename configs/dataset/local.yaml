@@ -1,0 +1,7 @@
+# @package _global_
+dataset:
+  type: local
+  path: data/local/dataset.csv
+  format: csv
+  max_samples: null
+  text_column: text
