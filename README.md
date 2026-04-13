@@ -82,4 +82,3 @@ ruff check .
 ## License
 
 MIT
-Repository for data generations and enhancement using Adaption
