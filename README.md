@@ -66,9 +66,8 @@ python main.py dataset=local model=vllm generation=default \
 Set environment variables and use `generation=adaption`:
 
 ```bash
-export ADAPTION_API_ENDPOINT=https://api.adaption.ai
 export ADAPTION_API_KEY=your_key_here
-python main.py generation=adaption
+python main.py
 ```
 
 ## Development

@@ -7,8 +7,4 @@ generation:
   deduplicate: true
   save_intermediate: true
   adaption_api:
-    endpoint: ${oc.env:ADAPTION_API_ENDPOINT,https://api.adaption.ai}
     api_key: ${oc.env:ADAPTION_API_KEY,}
-    model: adaption-v1
-    max_tokens: 512
-    temperature: 0.7
