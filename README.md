@@ -1,4 +1,4 @@
-# adaption-data-generation
+# Adaption Data Generation
 
 A flexible, config-driven dataset generation framework that sources data from HuggingFace Hub, Kaggle, or local files and generates responses using HuggingFace Transformers, vLLM, Unsloth, or the Adaption API.
 
