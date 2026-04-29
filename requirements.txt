@@ -7,3 +7,4 @@ torch>=2.2.0
 kaggle>=1.6.0
 requests>=2.31.0
 numpy>=1.26.0
+adaption
